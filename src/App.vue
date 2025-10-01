@@ -4,7 +4,7 @@ import QuoteCard from '@/components/QuoteCard.vue'
 
 <template>
   <h1>Daily Mind</h1>
-  <QuoteCard text="some text" />
+  <QuoteCard text="some quote" />
 </template>
 
 <style scoped></style>
