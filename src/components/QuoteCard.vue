@@ -1,11 +1,10 @@
 <script setup lang="ts">
-const { text } = defineProps<{ text: string }>()
 </script>
 
 <template>
   <div class="quote-card">
     <div class="quote-card__text">
-      {{ text }}
+      <slot></slot>
     </div>
   </div>
 </template>
