@@ -23,10 +23,19 @@ const { author, quote, category } = defineProps<Quote>()
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  width: 600px;
-  height: 200px;
   border-radius: 10px;
-  border: dashed 1px darkolivegreen;
+  padding: 50px 30px;
+  width: 906px;
+  gap: 30px;
+  background: #1f2937;
+}
+
+.quote-card__header {
+  font-style: italic;
+  font-size: 20px;
+}
+
+.quote-card__main {
+  font-size: 36px;
 }
 </style>
