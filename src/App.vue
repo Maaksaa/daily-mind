@@ -63,11 +63,11 @@ onMounted(() => {
   padding: 20px;
   width: 70px;
   height: 70px;
-  background: #34d399;
+  background: var(--color-quote);
   border: none;
   cursor: pointer;
 }
 .btn-circle:hover {
-  background: #45edb3;
+  background: var(--color-btn-hover);
 }
 </style>

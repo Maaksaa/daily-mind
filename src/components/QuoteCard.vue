@@ -27,7 +27,7 @@ const { author, quote, category } = defineProps<Quote>()
   padding: 50px 30px;
   width: 906px;
   gap: 30px;
-  background: #1f2937;
+  background: var(--color-quote);
 }
 
 .quote-card__header {
